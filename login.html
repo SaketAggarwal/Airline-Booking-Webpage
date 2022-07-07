@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("https://d2poqm5pskresc.cloudfront.net/wp-content/uploads/2019/10/airlines.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(1px);
+  -webkit-filter: blur(2px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+   background-color: rgb(0,0,0);/*  Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  padding: 100px;
+  text-align: center;
+}
+.button {
+  padding: 4px 15px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline-color: white;
+  color: white;
+  background-color:#1acaed; /*rgba(0.2,0,0,0.7);*/
+  border: 3.5px solid #4CAF50;
+  border-radius: 25px;
+  box-shadow: 0 2px #888;
+  /text-decoration:underline 1px red;/
+  
+}
+.btn{
+padding: 4px 6px;s
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline-color: white;
+  color: white;
+  background-color: rgba(0,1,0,0.7);
+  border: 3.5px solid #4CAF50;
+  border-radius: 25px;
+  box-shadow: 0 2px #888;
+  /text-decoration:underline 1px red;/
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.saket{
+text-decoration: underline 2px rgba(0,0,0,0.5);
+  /text-decoration-color: red;/
+
+}
+
+
+</style>
+
+</head>
+<body>
+
+  
+
+
+
+<div class="bg-image"></div>
+
+<form >
+<div class="bg-text">
+<div class="saket">
+
+  </div>
+
+
+<h1>Log in</h1> 
+	
+  			<div class="input-container">
+    <i class="fa fa-user icon"></i>
+    Your-Email or Username:<input class="input-field" type="text" class="form-control" placeholder=" your mail or username" name="usrnm" required="required">
+  </div>
+<br><br>
+  
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    Your Password:<input class="input-field" type="password" class="form-control"  name="psw" required="required">
+  </div>
+<br>
+<input type="checkbox">keep me logged in
+		<a href="file:///C:/Users/User/Desktop/Airline%20Project/PN-flight/index.html"><br><br><button class="button" type="submit">SUBMIT
+    </a></button>
+
+<p>Booked Ticket?
+<a href="file:///C:/Users/User/Desktop/Airline%20Project/Thankyou.html"><button class="btn">Print Ticket
+
+   </a> </button>
+
+</form>
+
+</body>
+</html>
